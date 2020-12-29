@@ -16,7 +16,7 @@ This is concerning. You want to look at what is going on in the social media cam
 
 Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a KoolKart topic mentioning its product categories. These feeds come from numerous public social media sources including Facebook, Twitter, and others.
 
-### a) Adding Additional Data Sources to a Project
+## Adding Additional Data Sources to a Project
 
 1. Add another data source to your project.
 
@@ -54,7 +54,7 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     ![](images/300/img_3a_1_5.png " ")
 
-### b) Updating Aggregation Logic within a Data Source
+## Updating Aggregation Logic within a Data Source
 
 1. Modify how DV will aggregate some of the fields by default.
 
@@ -94,7 +94,7 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     ![](images/300/img_3b_2_4.png " ")
 
-### c) Adding a Canvas to a Project with a New Visualization
+## Adding a Canvas to a Project with a New Visualization
 
 > As previously covered, a DV Project can include multiple Canvases for organizing visualizations.
 
@@ -122,7 +122,7 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     >We seem to have enough volume of activities (i.e. snippets) for each category so that’s good. However, the format of the Mentions Category data seems to be different from the format of the Category data in our KoolKart Sales Data (e.g. Clothing, Shoes vs. Clothing & Shoes). So, it looks like we need to figure out a way to “adjust” the data.
 
-### d) Wrangling Sales Data to Align it with Social Media Data
+## Wrangling Sales Data to Align it with Social Media Data
 
 1. Modify the data in the social media data source to allow it to be merged with the sales data.
 
@@ -183,7 +183,7 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     ![](images/300/img_3d_1_13.png " ")
 
-### e) Using Data Source Diagrams and Creating Additional Join Logic
+## Using Data Source Diagrams and Creating Additional Join Logic
 
 > In the last exercise, we modified some of the data in the **KoolKart Sales Data** data set to ensure that it aligned with the **DaaS Social Feeds-KoolKart** data set. Now that **Category** / **Mentions Category** appears in a similar way in both data sets, we can tell the system to join the two data sets.
 

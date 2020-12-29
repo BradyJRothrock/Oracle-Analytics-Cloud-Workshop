@@ -5,7 +5,7 @@ Key takeaways from this lab:
 - Using different visualizations to obtain insights from data set
 - Narrating a meaningful story using Narrate
 
-### a) Analyzing Sales and Social Media Data
+## Analyzing Sales and Social Media Data
 
 1. Create a calculated field to use in visualizations.
 
@@ -212,7 +212,7 @@ Key takeaways from this lab:
 
      >Depending on the size of your monitor and your screen resolution, your Tag Cloud could be laid out slightly different, but relative size and color should be the same as above.
 
-### b) Finalizing the Project and Insights on Sales and Social Media Data
+## Finalizing the Project and Insights on Sales and Social Media Data
 
 >Data Action links are responsible for passing context values from DV as parameters to external URLs or filters to other projects. When a link navigates to a project, the data context is displayed in the form of canvas scope filters in the filter bar. The links data context may include attributes associated with the selections or cell from which the link was initiated.
 
@@ -277,7 +277,7 @@ You are now ready to share your visualizations as a file or you can print a hard
 
 ![](images/400/img_4b_1.png " ")
 
-### c) Modifying Properties in the Data Panel.
+## Modifying Properties in the Data Panel.
 
 Before we conclude this lab, let's go over the **Data Panel** for **Narrate** tab.
 

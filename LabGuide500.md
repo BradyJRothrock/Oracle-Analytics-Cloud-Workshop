@@ -4,10 +4,10 @@ Key takeaways from this lab:
 - Learning how to create data flows
 - Using the **Machine Learning** abilities of OAC
 
-### What is Machine Learning?
+## What is Machine Learning?
 Machine learning, at its most basic, is the usage of algorithms to parse data, learn from it, and then make a determination or prediction about something. The Machine Learning abilities of OAC allow you to make predictions based on your data set. Data Visualization also provides scripts to train data models that you can add to other data sets to predict trends and patterns in data.
 
-### Scenario
+## Scenario
 
 When customers purchase products through a partner, KoolKart would like to include a discount coupon in the shipping confirmation email as an incentive for users to subscribe to the KoolKart mailing list. Now, Isla Stuart, who is a Digital Marketing Specialist, has to understand the customer demographics and figure out how big the incentive should be.
 
@@ -15,7 +15,7 @@ To do this, Isla  has already obtained 4 different data sets: Orders, Customers,
 
 Isla knows that she needs to use KoolKart Orders and KoolKart Customers data sets together. Most importantly, she decides to utilize the Data Flow functionality of OAC that allows her to create a data set tailored to her needs. Let's start!
 
-### a) Creating a Data Flow for KoolKart Orders and Customers
+## Creating a Data Flow for KoolKart Orders and Customers
 
 1. Create a **Data Flow** and add a **Data Set**.
 
@@ -131,7 +131,7 @@ Isla knows that she needs to use KoolKart Orders and KoolKart Customers data set
 
     ![](images/500/img_5a_5_7v2.png " ")
 
-### b) Using KoolKart Dataflow for Sales Analysis
+## Using KoolKart Dataflow for Sales Analysis
 
 1. Click on the hamburger button on the top left corner and select **Home**.
 
@@ -229,7 +229,7 @@ Isla knows that she needs to use KoolKart Orders and KoolKart Customers data set
 
     ![](images/500/img_5b_3_10.png " ")
 
-### c) Creating Visualization for Customer Analysis
+## Creating Visualization for Customer Analysis
 
 1. Create a visualization of **Order Amount** by **Customer Age Group**.
 
@@ -291,7 +291,7 @@ Isla knows that she needs to use KoolKart Orders and KoolKart Customers data set
     Name the canvas “Customers” and save the project.
    ![](images/500/img_5c_2_14.png " ")
 
-### d) Using the Explain feature to create a visualization
+## Using the Explain feature to create a visualization
 
 The **Explain** feature allows you to uncover insights and patterns about a particular column within a data set.
 
@@ -328,7 +328,7 @@ The **Explain** feature allows you to uncover insights and patterns about a part
     ![](images/500/img_5d_3_3.png " ")
 
 
-### e) Creating a Dataflow and Predicting Subscriptions
+## Creating a Dataflow and Predicting Subscriptions
 
 >Isla now wants to predict the likeliness of new customers to subscribe and to directly correlate the amount of the coupon to how much they are likely to subscribe anyway.
 
