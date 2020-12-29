@@ -7,7 +7,7 @@ Key takeaways from this lab:
 - Understanding the visualization capabilities of DV
 - Telling a story with annotated visualizations
 
-### a) Creating a Project with a Data Source and Visualizations
+## a) Creating a Project with a Data Source and Visualizations
 
 **Scenario**
 
@@ -103,7 +103,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     Before we continue, let’s take a step back and better understand the interface of the Visualize tab and its capabilities.
 
-### b) Understanding the Visualize Interface
+## b) Understanding the Visualize Interface
 
 1. Review the **Visualize** interface and menus.
 
@@ -165,7 +165,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     Now that you have been exposed to the core features of the interface, let’s dive into some further analyses.
 
-### c) Analyzing Sales Figures by Product and Customer Segments
+## c) Analyzing Sales Figures by Product and Customer Segments
 
 >Thus far, you have brought data into DV and generated a basic analysis of revenues over the past six months. However, this is a fairly basic analysis and, as CMO, you really need and want to dig in to the data further. Specifically, you are interested in seeing how different product categories are performing and how different marketing segments (e.g. gender) have an impact on those figures.
 
@@ -221,7 +221,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     >It looks like we have seen some increased revenues, though we will likely need to drill in even further to identify the impact of the social media campaigns. However, before we do that, let’s “clean-up” the canvas so it’s easier to digest, in case we need to share the results.
 
-### d) Formatting Visualizations and the Canvas
+## d) Formatting Visualizations and the Canvas
 
 1. Rearrange the visualizations to make them easier to view.
 
@@ -303,7 +303,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     ![](images/200/img_2d_5_2.png " ")
 
-### e) Analyzing Visualizations with Trend Lines and Trellis Rows
+## e) Analyzing Visualizations with Trend Lines and Trellis Rows
 
 >As mentioned earlier, as the KoolKart CMO, you have now started to evaluate your revenue data. However, you want to make sure that it has some relation to the social media campaigns that you launched during November, January, February, and April. At first glance, it does look like revenues are increasing following those campaigns but you want to make sure things are also trending upwards, overall.
 
@@ -343,7 +343,7 @@ Luckily, DV can help. So, let’s take a closer look at our numbers!
 
     >We should talk with our team, but what is the best way to share this information?
 
-### f) Narrating a Story with Visualizations and Insights
+## f) Narrating a Story with Visualizations and Insights
 
 1. Add an Insight to your project.
 
@@ -383,7 +383,7 @@ Luckily, DV can help. So, let’s take a closer look at our numbers!
 
 Congratulations! You have now successfully created compelling visualizations with DV. Proceed onto the next labs to learn about and try out even more robust features!
 
-### g) Modifying Properties in the Data Panel
+## g) Modifying Properties in the Data Panel
 
 Now, let's go over the data panel in the bottom left of the UI for accessing properties. You will find yourself using them in the upcoming labs, so now is a good time to visit them.
 
