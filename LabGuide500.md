@@ -1,4 +1,4 @@
-## Lab 500 – Predicting Subscriptions - Machine Learning
+## Part 5 – Predicting Subscriptions - Machine Learning
 
 Key takeaways from this lab:
 - Learning how to create data flows

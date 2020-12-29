@@ -1,4 +1,4 @@
-## Lab 400 – Analyzing Social Media with Sales – Visualize and Narrate
+## Part 4 – Analyzing Social Media with Sales – Visualize and Narrate
 
 Key takeaways from this lab:
 - Learning how to use Calculations

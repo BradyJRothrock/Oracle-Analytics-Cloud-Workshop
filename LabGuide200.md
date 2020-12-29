@@ -1,4 +1,4 @@
-## Lab 200 - Analyzing Sales - Basic Introduction to Core Features
+## Part 2 - Analyzing Sales - Basic Introduction to Core Features
 
 This section walks you through the analysis of a single data set.
 

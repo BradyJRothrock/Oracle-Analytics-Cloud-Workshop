@@ -1,4 +1,4 @@
-## Lab 300 – Analyzing Social Media with Sales – Data Blending and Wrangling
+## Part 3 – Analyzing Social Media with Sales – Data Blending and Wrangling
 
 >You must have completed Lab 200, in order to complete all sections of this Lab.
 

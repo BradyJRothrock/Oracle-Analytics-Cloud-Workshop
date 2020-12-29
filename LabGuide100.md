@@ -1,4 +1,4 @@
-## Lab 100 - Getting Started with Oracle Analytics Cloud Data Visualization (OAC DV)
+## Part 1 - Getting Started with Oracle Analytics Cloud Data Visualization (OAC DV)
 
 ## Objectives
 
