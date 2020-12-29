@@ -6,7 +6,7 @@ Key takeaways from this lab:
 - Learning to Wrangle Data Sets
 - Joining Multiple Data Sets for analysis.
 
-**Scenario**
+## **Scenario**
 
 As KoolKarts’ CMO, you have been evaluating revenue data to see if your team’s social media campaigns over the past 6 months have had a positive impact.
 
