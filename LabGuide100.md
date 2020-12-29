@@ -164,3 +164,5 @@ On logging into OAC, you will see the home page.
     This menu allows you to customize the components of your home page.
 
 Now that you can start OAC and navigate around DV, let’s get started with some analyses!
+
+[Continue to Part 2](https://bradyjrothrock.github.io/Oracle-Analytics-Cloud-Workshop/?lab=part-2--basic-introduction-core-features)
