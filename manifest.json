@@ -1,7 +1,7 @@
 {
 	"tutorials": [
 		{
-			"title": "Lab 100: Getting Started with Oracle Analytics Cloud Data Visualization",
+			"title": "Part 1: Getting Started with Oracle Analytics Cloud Data Visualization",
 			"description": "Learning how to provision an OAC instance and getting acclimatized to the DV interface",
 			"partnumber": "Ennnnn_01",
 			"publisheddate": "02/18/2020",
@@ -9,7 +9,7 @@
 			"filename": "LabGuide100.md"
 		},
 		{
-			"title": "Lab 200:  Basic Introduction to Core Features",
+			"title": "Part 2:  Basic Introduction to Core Features",
 			"description": "Creating projects with data sets and visualizations",
 			"partnumber": "Ennnnn_01",
 			"publisheddate": "02/18/2020",
@@ -17,7 +17,7 @@
 			"filename": "LabGuide200.md"
 		},
 		{
-			"title": "Lab 300:  Data Blending and Wrangling",
+			"title": "Part 3:  Data Blending and Wrangling",
 			"description": "Learning to Wrangle Data Sets by joining Multiple Data Sets for analysis",
 			"partnumber": "Ennnnn_01",
 			"publisheddate": "02/18/2020",
@@ -25,7 +25,7 @@
 			"filename": "LabGuide300.md"
 		},
 		{
-			"title": "Lab 400: Visualize and Narrate",
+			"title": "Part 4: Visualize and Narrate",
 			"description": "Learning how to use Calculations and visualizations to obtain insights from data set",
 			"partnumber": "Ennnnn_01",
 			"publisheddate": "02/18/2020",
@@ -33,7 +33,7 @@
 			"filename": "LabGuide400.md"
 		},
 		{
-			"title": "Lab 500: Machine Learning",
+			"title": "Part 5: Machine Learning",
 			"description": "Learning how to create data flows and use the Machine Learning abilities of OAC",
 			"partnumber": "Ennnnn_01",
 			"publisheddate": "02/18/2020",
