@@ -166,4 +166,3 @@ On logging into OAC, you will see the home page.
 Now that you can start OAC and navigate around DV, let’s get started with some analyses!
 
 [Continue to Part 2](/Oracle-Analytics-Cloud-Workshop/?lab=part-2--basic-introduction-core-features)
-

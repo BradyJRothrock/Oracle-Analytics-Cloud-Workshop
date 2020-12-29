@@ -298,3 +298,5 @@ This section will cover the functions of each of these options.
 >![](images/400/img_4c_7.png " ") **Notes**:  Manage any notes you’ve appended to your canvases.
 
 >![](images/400/img_4c_8.png " ") **Presentation**: Manage the presentation of your storyboards/canvases. This includes the Story Navigator, which allows you to the style and auto hide properties of your presentation.
+
+[Continue to Part 5](/Oracle-Analytics-Cloud-Workshop/?lab=part-5-machine-learning)

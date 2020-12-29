@@ -212,3 +212,5 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
    The data source diagram will now show there are **2** joins between the data sets.
 
    ![](images/300/img_3e_1_5.png " ")
+
+[Continue to Part 4](/Oracle-Analytics-Cloud-Workshop/?lab=part-4-visualize-narrate)

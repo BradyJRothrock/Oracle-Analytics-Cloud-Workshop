@@ -406,3 +406,5 @@ This section will cover the functions of each of these options.
 >![](images/200/img_2g_8.png " ") **Date/Time Format**: Allows you to adjust how date/time column data is shown in your visualizations.
 
 >![](images/200/img_2g_9.png " ") **Analytics**: Allows you to add different analytics options to your visualization. This includes Clusters, Outliers, Reference Lines, and Forecasts.
+
+[Continue to Part 3](/Oracle-Analytics-Cloud-Workshop/?lab=part-3--data-blending-wrangling)
