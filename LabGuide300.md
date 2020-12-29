@@ -1,12 +1,12 @@
 ## Part 3 – Analyzing Social Media with Sales – Data Blending and Wrangling
 
->You must have completed Lab 200, in order to complete all sections of this Lab.
+>You must have completed Part 2, in order to complete all sections of this Lab.
 
 Key takeaways from this lab:
 - Learning to Wrangle Data Sets
 - Joining Multiple Data Sets for analysis.
 
-## **Scenario**
+## Scenario
 
 As KoolKarts’ CMO, you have been evaluating revenue data to see if your team’s social media campaigns over the past 6 months have had a positive impact.
 
