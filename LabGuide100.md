@@ -20,11 +20,11 @@ The goal of today’s workshop is to introduce you to the data visualization cap
 
 Oracle Analytics is a tool that enables you to explore analytical data visually and individually. The capabilities are available both via a web-based interface (OAC) as well as via a local client (Oracle Analytics Desktop).
 
-Oracle Analytics makes it easy to visualize your data, so you can focus on exploring interesting patterns and outliers. Just upload your data files or connect to a data source, select the elements you are interested in, and let Data Visualization find the best way to visualize it. Of course, you can also choose from a wide range of visualizations yourself if you want to look at your data in a specific way.
+Oracle Analytics makes it easy to visualize your data, so you can focus on exploring interesting patterns and outliers. Just upload your data files or connect to a data source, select the elements you are interested in, and let Oracle Analytics find the best way to visualize it. Of course, you can also choose from a wide range of visualizations yourself if you want to look at your data in a specific way.
 
-- **Creating visualizations is easy**. Your data analysis work is an individual experience in exploration and discovery that can also be shared with other users. Data Visualization enables you to experiment with a wealth of different options for how to view your data. During this experimentation process, you can find correlations, discover patterns, and see trends in your content.
+- **Creating visualizations is easy**. Your data analysis work is an individual experience in exploration and discovery that can also be shared with other users. Oracle Analytics enables you to experiment with a wealth of different options for how to view your data. During this experimentation process, you can find correlations, discover patterns, and see trends in your content.
 
-- Data Visualization provides you with tools for faster and simpler assembly of detailed reports arranged together in an appealing and meaningful display. Data Visualization goes even further, to give you dynamic views for focused, exploratory interaction with your data.
+- Oracle Analytics provides you with tools for faster and simpler assembly of detailed reports arranged together in an appealing and meaningful display. Oracle Analytics goes even further, to give you dynamic views for focused, exploratory interaction with your data.
 
 ## Oracle Analytics provides the following:
 
@@ -40,27 +40,28 @@ Oracle Analytics makes it easy to visualize your data, so you can focus on explo
 
 >**Data Blending**: Combining two or more data sources for analysis.
 
-Now let’s get started!  Before beginning, ensure you have signed up for a free tier account.
+## Provisioning an Oracle Analytics Cloud Instance
 
-### a) Provisioning an Oracle Analytics Cloud Instance
+1. From any browser go to oracle.com/cloud/sign-in.html to access the Oracle Cloud.
 
-1. From any browser go to oracle.com to access the Oracle Cloud.
-
-    [https://www.oracle.com/](https://www.oracle.com/)
+    [https://www.oracle.com/cloud/sign-in.html](https://www.oracle.com/cloud/sign-in.html)
 
     ![](images/login-screen.png " ")
 
-2.  Click the icon in the upper right corner.  Click on **Sign in to Cloud** at the bottom of the drop down.  *NOTE:  Do NOT click the Sign-In button, this will take you to Single Sign-On, not the Oracle Cloud*
+2.  Sign into the **Single Sing-On (SSO)** by clicking **Continue**. This is required because the **Identify Provider** will be required to create our Oracle Analytics Cloud Instance.  
+*NOTE:  Do NOT click the Sign-In button, this will sign you in without your Identify Provider and you will not be able to create the instance.*
 
-    ![](images/signup.png " ")   
+    ![](images/single-sign-on.png " ")
 
 3. Enter your username and password and click on **Sign In**.
+
+    ![](images/oracle-cloud-signin.png " ")
 
 4. Once you log in you will see a page similar to the one below.  Click on the hamburger icon in the upper left corner to reveal the menu.
 
     ![](images/hamburger.png " ")  
 
-5. Click on **Platform Services** -> **Analytics**
+5. Click on **Analytics** -> **Analytics Cloud**
 
     ![](images/menu.png " ")
 
@@ -68,50 +69,40 @@ Now let’s get started!  Before beginning, ensure you have signed up for a free
 
     ![](images/create-analytics-instance.png " ")
 
-7. Next, we will configure our instance. Click on the **Feature Set** dropdown.
+7. Now, give your instance a **Name**.
+
+    ![](images/100/img_1a_7_3.png " ")
+    
+    Next, we will configure our instance. Click on the **Feature Set** dropdown.
 
     ![](images/100/img_1a_7_1.png " ")
 
-    Choose **Data Visualization**.
+    Choose **Self-service Analytics**  and leave the rest of the options as is.
 
     ![](images/100/img_1a_7_2.png " ")
 
-    Now, give your instance a **Name** and choose the correct **License Type**. If you already own a license, then choose the first option. Otherwise, go with the second option.
-
-    ![](images/100/img_1a_7_3.png " ")
-
-     After this, click on the **Edition** dropdown menu and choose **Oracle Analytics Cloud - Standard**.
-
-    ![](images/100/img_1a_7_4.png " ")
-
-    ![](images/100/img_1a_7_5.png " ")
-
-    Once configured, click on **Next**.
-
-    ![](images/100/img_1a_7_6.png " ")
+    
 
 8. Review your selections. Make sure your fields match the fields mentioned in the previous step. In case of issues, return to the previous screen and make the required changes. Then click **Create**.
 
     ![](images/100/img_1a_8_1.png " ")
 
-9. Now, wait for the instance to be created.
+9. Now, wait for the instance to be created. This can take up to half an hour.
 
     ![](images/100/img_1a_9_1.png " ")
 
-    You will receive an email once the instance is ready.
-
-    ![](images/100/img_1a_9_2.png " ")
-
-10. Click on the **Ellipses** menu and select **Oracle Analytics Cloud URL**.
+10. Once created select **Analytics Home Page**.
 
     ![](images/100/img_1a_10_1.png " ")
 
     Doing so will take you to the OAC home page which we will be reviewing in the next section.
 
-    ![](images/100/img_1a_10_2v2.png " ")
+    ![](images/100/img_1b_1.png " ")
 
+11. It's important to note that once we're done using the instance we need to **Stop** the instance or else it could use multiple dollars a day of our trial credits. Restarting the instance at a later time takes roughly 5 minutes.
 
-### b) Reviewing the Home page and the primary menus
+    ![](images/100/img_1a_10_3.png " ")
+## Reviewing the Home page and the primary menus
 
 On logging into OAC, you will see the home page.
 
@@ -151,18 +142,6 @@ On logging into OAC, you will see the home page.
 
     This window allows you to create a Visualization project, a data set, a connection to an external source, a data flow, or a sequence.
 
-4. Click on hamburger icon at the top right of the UI, next to Create.
-
-    ![](images/100/img_1b_4_1v2.png " ")
-
-5. Select the **Customize** option.
-
-    ![](images/100/img_1b_5_1v2.png " ")
-
-    ![](images/100/img_1b_5_2v2.png " ")
-
-    This menu allows you to customize the components of your home page.
-
-Now that you can start OAC and navigate around DV, let’s get started with some analyses!
+Now that you can start and navigate around OAC, let’s get started with some analyses!
 
 [Continue to Part 2](/Oracle-Analytics-Cloud-Workshop/?lab=part-2--basic-introduction-core-features)
