@@ -43,7 +43,7 @@ Key takeaways from this lab:
 
 2. Use the calculation in a visualization to analyze social media volume on a logarithmic scale.
 
-    Clear the existing **Canvas**. Select the **Canvas Settings** option from the **Project Menu** and select **Clear Canvas**.
+    Clear the existing **Canvas**. Select the  dropdown arrow next to the **Canvas 2** tab and from the menu select **Clear Canvas**.
 
     ![](images/400/img_4a_2_1.png " ")
 
@@ -61,23 +61,21 @@ Key takeaways from this lab:
 
     Let’s create a copy of the visualization, so that we can quickly analyze the date based information in our data set.
 
-    **Right click** in the white space of the visualization (or use the **Visualization Properties Menu** in the top right of the visualization). Select **Copy Visual**.
+    **Right click** in the white space of the visualization (or use the **Visualization Properties Menu** in the top right of the visualization). Select **Edit** then **Copy Visual**.
 
     ![](images/400/img_4a_2_4.png " ")
 
     ![](images/400/img_4a_2_5.png " ")
 
-    **Right click** in the white space of the visualization (or use the **Visualization Properties Menu** in the top right of the visualization). Select **Paste Visual**.
+    **Right click** in the white space at the bottom middle of the visualization. Select **Paste Visualization**.
 
     ![](images/400/img_4a_2_6.png " ")
-
-    ![](images/400/img_4a_2_7.png " ")
 
     You should now have two copies of the line chart on your canvas.
 
     ![](images/400/img_4a_2_8.png " ")
 
-    If needed, rearrange the images one above the other, as learnt in Lab 200.
+    If needed, rearrange the images one above the other, as covered in Part 2.
 
     Now, go ahead and select the one at the top.
 
@@ -90,6 +88,8 @@ Key takeaways from this lab:
     Doing so should have replaced **Activity(log scale)** with **Revenue**. If it was added as another Y-axis measure, just hover over the **Activity(log scale)** measure and click the **X** that appears in the right corner to remove it.
 
     ![](images/400/img_4a_2_11.png " ")
+
+    ![](images/400/img_4a_2_11.2.png " ")
 
     >In our earlier analysis, we established that although certain product categories have negative revenue trends, the overall trends are positive and would appear to correlate positively with our social media campaigns.
 
@@ -107,7 +107,7 @@ Key takeaways from this lab:
 
     ![](images/400/img_4a_3_2.png " ")
 
-4. Add **Category** to the **Activity(log scale)** by **Date** visualization.
+4. Now select the **Activity(log scale)** by **Date** visualization and add **Category**.
 
     Select the **Activity(log scale) by Date** visualization.
 
@@ -127,11 +127,11 @@ Key takeaways from this lab:
 
 5. Create a new visualization to evaluate the tone of social media posts.
 
-    Select the **Activity(log scale) by Date, Category** visualization. **Right click** in any blank area and select **Copy Visual**.
+    Select the **Activity(log scale) by Date, Category** visualization. **Right click** in any blank area and select **Copy Visualization**.
 
     ![](images/400/img_4a_5_1.png " ")
 
-    **Right click** below the **Activity(log scale) by Date, Category** visualization and select **Paste Visual**.
+    **Right click** below the **Activity(log scale) by Date, Category** visualization and select **Paste Visualization**.
 
     ![](images/400/img_4a_5_2.png " ")
 
@@ -161,9 +161,7 @@ Key takeaways from this lab:
 
 6. Evaluate the tone of specific social media posts using a **Tag Cloud** visualization.
 
-    Minimize the last visualization.
-
-    ![](images/400/img_4a_6_1.png " ")
+    Minimize the visualization by clicking the **X**.
 
     Select **Indicators**. Press and hold **Control(Windows) or Command(Mac)**. Select **Total Number of Snippets**. Right click and select **Pick Visualization**.
 
@@ -173,7 +171,7 @@ Key takeaways from this lab:
 
     ![](images/400/img_4a_6_3v2.png " ")
 
-    You should now see a breakdown of the most common Indicators on social media.
+    Maximize the **Tag Cloud** visualization and you should now see a breakdown of the most common Indicators on social media.
 
     ![](images/400/img_4a_6_4.png " ")
 
@@ -185,16 +183,14 @@ Key takeaways from this lab:
 
     ![](images/400/img_4a_6_6.png " ")
 
-    ![](images/400/img_4a_6_7.png " ")
-
      Click outside the filter to exit the menu.
 
-     Select **Date** and drag it into the **Filter** area. Don't replace the **Mentions Category** filter.
+     Select **Date** and drag it into the **Filter** area to add it, and don't replace the **Mentions Category** filter.
 
      ![](images/400/img_4a_6_8.png " ")
 
-     Set the **Start Date** (using the calendar or by typing) to **January 1, 2016**.
-     Set the **End Date** to **April 29, 2016**.
+     Set the **Start Date** (using the calendar or by typing) to **1/1/2016**.
+     Set the **End Date** to **4/29/2016**.
      Click anywhere outside the filter to exit the menu.
 
      ![](images/400/img_4a_6_9.png " ")
@@ -208,13 +204,13 @@ Key takeaways from this lab:
 
      ![](images/400/img_4a_6_11.png " ")
 
-     >In looking at the size of the tag, we can see key indicators like Defective, Delivery, and Recall are frequently mentioned and by looking at the darker color, we can see that Customer Service and MEDIA: Viewing seem to be contributing to the bulk of negative sentiment. Let’s note this as another insight to share with the team.
+     >In looking at the size of the tag, we can see key indicators like Defective, Delivery, and Recall are frequently mentioned and by looking at the darker color, we can see that Customer Service and **MEDIA: Viewing** seem to be contributing to the bulk of negative sentiment. Let’s note this as another insight to share with the team.
 
      >Depending on the size of your monitor and your screen resolution, your Tag Cloud could be laid out slightly different, but relative size and color should be the same as above.
 
 ## Finalizing the Project and Insights on Sales and Social Media Data
 
->Data Action links are responsible for passing context values from DV as parameters to external URLs or filters to other projects. When a link navigates to a project, the data context is displayed in the form of canvas scope filters in the filter bar. The links data context may include attributes associated with the selections or cell from which the link was initiated.
+>Data Action links are responsible for passing context values from Oracle Analytics as parameters to external URLs or filters to other projects. When a link navigates to a project, the data context is displayed in the form of canvas scope filters in the filter bar. The links data context may include attributes associated with the selections or cell from which the link was initiated.
 
 1. Accessing the **Data Actions** Dialog Box
 
@@ -227,6 +223,8 @@ Key takeaways from this lab:
     ![](images/400/img_4b_1_2.png " ")
 
     Let’s also give the **Insight** a meaningful name. Double-click the **Title Box** and type **Social Media Sentiment**.
+
+    ![](images/400/img_4b_1_2.2.png " ")
 
     Navigate to the **Canvas Settings** and check the **Description Box**.
 
@@ -245,8 +243,6 @@ Key takeaways from this lab:
 
     Select the **Save Button** in the **Project Menu**. Select **Save**.
 
-    ![](images/400/img_4b_2_1.png " ")
-
 3. Present the findings using **Presentation Mode**.
 
     >**Presentation Mode** is used when you are sharing your story and any insights that you have gained with others.
@@ -261,11 +257,9 @@ Key takeaways from this lab:
 
     Notice the 2 dots that appear at the bottom of your screen (one for each Insight you created). The **Insight** title and description appear above the dots.
 
-    Click on the **2nd dot**. Your **2nd Insight** is now displayed. You can navigate back and forth between each **Insight** by clicking on the dots or the arrows.
+    If you click on the **1st dot** your **1st Canvas** is now displayed. You can navigate back and forth between each **Canvas** by clicking on the dots or the arrows.
 
     ![](images/400/img_4b_3_3.png " ")
-
-    ![](images/400/img_4b_3_4.png " ")
 
     Exit **Presentation Mode** by selecting the **X** in the top right.
 
@@ -284,8 +278,6 @@ Before we conclude this lab, let's go over the **Data Panel** for **Narrate** ta
 ![](images/400/img_4c_1.png " ")
 
 This section will cover the functions of each of these options.
-
-![](images/400/img_4c_2.png " ")
 
 ![](images/400/img_4c_3.png " ")
 
