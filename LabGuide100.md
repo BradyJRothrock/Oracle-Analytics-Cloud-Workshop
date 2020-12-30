@@ -1,6 +1,5 @@
 ## Part 1 - Getting Started with Oracle Analytics Cloud (OAC)
 
-## Objectives
 
 This section focuses on getting started with OAC and introducing students to the interface.
 
