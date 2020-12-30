@@ -20,7 +20,7 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
 1. Add another data source to your project.
 
-    Download the <a href="https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5/Exercise%20Files/DaaS%20Social%20Feeds-KoolKart.xlsx">**DaaS Social Feeds-KoolKart.xlsx**</a> file.
+    Download the <a href="/Oracle-Analytics-Cloud-Workshop/Exercise%20Files/DaaS%20Social%20Feeds-KoolKart.xlsx">**DaaS Social Feeds-KoolKart.xlsx**</a> file.
 
     There are two ways to add another data source:
     i) You can click on the **+** icon to open up the options and select **Add Data Set...** or
@@ -30,11 +30,11 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     ![](images/300/img_3a_1_1.png " ")
 
-    Select **Create Data Source**.
+    Select **Create Data Set**.
 
     ![](images/300/img_3a_1_2.png " ")
 
-    >Whenever you upload a file, OAC DV treats it as a data set. Whenever you add a new data source to an existing DV project or are creating a new DV project, the system displays all the data sets you have previously uploaded. This is a nice feature that allows you to re-use data sets you previously uploaded for other DV projects. For this lab, we need to upload a new spreadsheet.
+    >Whenever you upload a file, Oracle Analytics treats it as a data set. Whenever you add a new data source to an existing Oracle Analytics project or are creating a new Oracle Analytics project, the system displays all the data sets you have previously uploaded. This is a nice feature that allows you to re-use data sets you previously uploaded for other Oracle Analytics projects. For this lab, we need to upload a new spreadsheet.
 
     Select **Drop data file here or click to browse**.
 
@@ -52,19 +52,15 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     >You do not need to change anything with this step. This is just to allow you to recognize that the system will auto match data sets where possible.
 
-    ![](images/300/img_3a_1_5.png " ")
-
 ## Updating Aggregation Logic within a Data Source
 
-1. Modify how DV will aggregate some of the fields by default.
+1. Modify how Oracle Analytics will aggregate some of the fields by default.
 
-    >DV will try to identify the best aggregation method (e.g. Average, Sum, Count) for Measures within a data set. However, if you want to use an alternate aggregation method, the system allows you to set the logic for every column. For this lab, we want to look at averages as opposed to sums when evaluating what percentage of social media comments are of a certain tone.
+    >Oracle Analytics will try to identify the best aggregation method (e.g. Average, Sum, Count) for Measures within a data set. However, if you want to use an alternate aggregation method, the system allows you to set the logic for every column. For this lab, we want to look at averages as opposed to sums when evaluating what percentage of social media comments are of a certain tone.
 
     Click on **Percent Positive Tone** field header. Now, in the **Data Panel** in the **Project Components Menu**, select **Sum** (next to **Aggregation**) and then select **Average**.
 
     ![](images/300/img_3b_1_1.png " ")
-
-    ![](images/300/img_3b_1_2.png " ")
 
     Repeat the steps above for **Percent Neutral Tone** and **Percent Negative Tone**.
 
@@ -74,7 +70,7 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
 2. Update an **Attribute** to a **Measure**.
 
-    >Upon importing data, DV will automatically identify numeric columns as measures. If the **Total Number of Snippets** column is not a measure, continue with the steps below. Else, skip to section c.
+    >Upon importing data, Oracle Analytics will automatically identify numeric columns as measures. If the **Total Number of Snippets** column did not import as a measure, continue with the steps below. Else, skip to section 3.
 
       There are two methods to do this:
 
@@ -86,23 +82,19 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
       ![](images/300/img_3b_2_2.png " ")
 
-      Select **Add** to begin working with the data.
+3. Select **Add** to begin working with the data.
 
     ![](images/300/img_3b_2_3.png " ")
 
-    You should now see the **DaaS Social Feeds-KoolKart** data set loaded into your project.
+    Got to the **Visualize** tab and you should now see the **DaaS Social Feeds-KoolKart** data set loaded into your project.
 
     ![](images/300/img_3b_2_4.png " ")
 
 ## Adding a Canvas to a Project with a New Visualization
 
-> As previously covered, a DV Project can include multiple Canvases for organizing visualizations.
+> As previously covered, a Oracle Analytics Project can include multiple Canvases for organizing visualizations.
 
 1. Add a new **Canvas**.
-
-    Select the **Visualize** tab at the top right of the screen.
-
-    ![](images/300/img_3c_1_1.png " ")
 
     Select the **+** icon at the bottom left of the screen to add a new **Canvas**.
 
@@ -116,9 +108,11 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     ![](images/300/img_3c_2_1.png " ")
 
-    The system will have determined that a **Horizontal Bar Chart** is the best option for displaying this data.
+    The system will have determined that a **Bar Chart** is the best option for displaying this data, however, let's change this to a **Horizontal Bar Chart** by clicking **Auto Visualization** and selecting the **Horizontal Bar Chart** option.
 
     ![](images/300/img_3c_2_2.png " ")
+
+    ![](images/300/img_3c_2_2.2.png " ")
 
     >We seem to have enough volume of activities (i.e. snippets) for each category so that’s good. However, the format of the Mentions Category data seems to be different from the format of the Category data in our KoolKart Sales Data (e.g. Clothing, Shoes vs. Clothing & Shoes). So, it looks like we need to figure out a way to “adjust” the data.
 
@@ -142,13 +136,9 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     ![](images/300/img_3d_1_4.png " ")
 
-    Make sure you are on the **KoolKart Sales Data** tab in the bottom left and select the **Ellipses** icon ![](images/300/img_3d_1_5.png) next to the **Category** column.
+    Make sure you are on the **KoolKart Sales Data** tab in the bottom left and select the **Ellipses** icon ![](images/300/img_3d_1_5.png) next to the **Category** column and select **Edit**.
 
     ![](images/300/img_3d_1_6.png " ")
-
-    Select **Edit**.
-
-    ![](images/300/img_3d_1_7.png " ")
 
     You should see an expression editor, which we will use to replace the ampersands in **Category** with commas.
 
@@ -170,8 +160,8 @@ Let’s look at the past 6 months of Oracle Data as a Service (DaaS) feeds on a 
 
     ![](images/300/img_3d_1_11.png " ")
 
-    Click the next occurrence of **expression** and type in ‘&’ (include the single quotes).
-    Click the next occurrence of **expression** and type in ‘,’ (include the single quotes).
+    Click the next occurrence of **expression** and type in `‘&’` (include the single quotes).
+    Click the next occurrence of **expression** and type in `‘,’` (include the single quotes).
 
     The expression should now appear as: **REPLACE(Category, '&', ',')**. The function should be validated, automatically. If not, click the **Validate** button.  
 
