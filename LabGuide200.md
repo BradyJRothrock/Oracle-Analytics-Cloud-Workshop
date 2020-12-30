@@ -4,7 +4,7 @@ This section walks you through the analysis of a single data set.
 
 Key takeaways from this lab:
 - Creating projects with data sets and visualizations
-- Understanding the visualization capabilities of DV
+- Understanding the visualization capabilities of Oracle Analytics
 - Telling a story with annotated visualizations
 
 ## Creating a Project with a Data Source and Visualizations
@@ -17,13 +17,11 @@ KoolKart is an e-Commerce company that sells 4 categories of products and is loo
 
 Given the level of investment your company has made, you are looking to ensure that resources are being effectively utilized. Hence, you are investigating the effectiveness of those campaigns.
 
-After reaching out to the sales team, you have been provided with a spreadsheet with thousands of rows of information and are struggling to make heads or tails of what you are evaluating. Let’s see how DV can help you!
+After reaching out to the sales team, you have been provided with a spreadsheet with thousands of rows of information and are struggling to make heads or tails of what you are evaluating. Let’s see how Oracle Analytics can help you!
 
 1. Review the spreadsheet containing the sales figures used in this lab.
 
      Download and open the <a href="/Oracle-Analytics-Cloud-Workshop/Exercise%20Files/KoolKart%20Sales%20Data.xlsx">**KoolKart Sales Data.xlsx**</a> file.
-
-     <!-- https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5 -->
 
     ![](images/200/img_2a_1_1.png " ")
 
@@ -99,7 +97,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     ![](images/200/img_2a_5_2.png " ")
 
-    >As an intelligent analytics platform, the system is able to provide recommendations for how best to visualize information. The system has determined that a horizontal bar chart is a good way to display the information that you are evaluating.
+    >As an intelligent analytics platform, the system is able to provide recommendations for how best to visualize information. The system has determined that a bar chart is a good way to display the information that you are evaluating.
 
     ![](images/200/img_2a_5_3.png " ")
 
@@ -113,7 +111,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     >Visualizations are displayed on a canvas. A **Canvas** can contain multiple visualizations and a **Project** can include multiple Canvases.
 
-    >When you open the **Visualize** interface, you should see the **Canvas** in addition to a few other menus. The **Project Components Menu** will be on the left hand side. The **Project Tabs** will appear at the center top of the screen and the **Project Menu** will be in the top right.
+    >When you open the **Visualize** interface, you should see the **Canvas** in addition to a few other menus. The **Project Components Menu** will be on the left hand side and the **Project Tabs** will appear at the center top of the screen.
 
     ![](images/200/img_2b_1_1.png " ")
 
@@ -139,11 +137,13 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     >**Redo Last Edit** – Reapply the last user change rolled back by the above (greyed out, if there is nothing to redo).
 
-    >**Share Project** – Bring up additional options for sharing the project.
+    >**Share Project** – Bring up additional options for sharing the project as a file or to print.
 
-    >**Canvas Settings** – Provides ability to manage canvas and project level properties.
+    >**Save** – Provides ability to save the project.
 
-    On the left hand side of the screen, the **Project Components Menu** displays the available Data Sources, **Data Elements**, **Analytics**, or **Visualizations** within the project (depending upon which one has been selected). If you are on the **Prepare** tab, then it will display **Preparation Script** or **Data Elements**.
+    >**Home** – To return to the home screen.
+
+    On the left hand side of the screen, the **Project Components Menu** displays the available Data Sources, **Data**, **Visualizations**, or **Analytics** within the project (depending upon which one has been selected). If you are on the **Prepare** tab, then it will display **Preparation Script** or **Data**.
 
     ![](images/200/img_2b_1_4.png " ")
 
@@ -151,15 +151,15 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     >**Data Elements** – Displays the actual data available for analysis (e.g. the columns from your data sources).
 
-    >**Analytics** – Provides access to advanced analytics that can be added to visualizations such as trend lines, clusters, and outliers.
-
     >**Visualizations** – Visual elements available for use in the Canvas.
 
-    Based on which icon is selected, you will see different results. The example below shows the **Data Elements** in our current project.
+    >**Analytics** – Provides access to advanced analytics that can be added to visualizations such as trend lines, clusters, and outliers.
+
+    Based on which icon is selected, you will see different results. The example below shows the **Data** in our current project.
 
     ![](images/200/img_2b_1_5.png " ")
 
-    The **Search** box allows you to search through the data sets. For example, you can search for **Data Elements** that are related to the customers by typing in customer.
+    The **Search** box allows you to search through the data sets. For example, you can search for **Data** that are related to the customers by typing in customer.
 
     ![](images/200/img_2b_1_6.png " ")
 
@@ -169,7 +169,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
 ## Analyzing Sales Figures by Product and Customer Segments
 
->Thus far, you have brought data into DV and generated a basic analysis of revenues over the past six months. However, this is a fairly basic analysis and, as CMO, you really need and want to dig in to the data further. Specifically, you are interested in seeing how different product categories are performing and how different marketing segments (e.g. gender) have an impact on those figures.
+>Thus far, you have brought data into Oracle Analytics and generated a basic analysis of revenues over the past six months. However, this is a fairly basic analysis and, as CMO, you really need and want to dig in to the data further. Specifically, you are interested in seeing how different product categories are performing and how different marketing segments (e.g. gender) have an impact on those figures.
 
 1. Create a breakdown of revenue by product category.
 
@@ -203,7 +203,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     ![](images/200/img_2c_2_2.png " ")
 
-    >As you can see, there is already a great variety of visualizations available and more are released in every new version of the tool. We won't be covering each and every one, but we have made an attempt to provide a few examples during the course of this workshop. Please feel free to try out the different types!
+    >As you can see, there is already a great variety of visualizations available and more are released in every new version of the tool. We won't be covering each and every one, but we have made an attempt to provide a few examples during the course of this workshop. 
 
     ![](images/200/img_2c_2_3.png " ")
 
@@ -257,8 +257,6 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     Now, click on the **Revenue by Date** visualization. Hover your cursor over the left border until you see an arrow icon.
 
-    ![](images/200/img_2d_2_1.png " ")
-
     Left click and drag the edge of the visualization to the left to increase the size. Your canvas should now look like the following:
 
     ![](images/200/img_2d_2_2.png " ")
@@ -276,8 +274,6 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
     Scroll down and select **Tokyo**. Then select OK.
 
     ![](images/200/img_2d_3_3.png " ")
-
-    ![](images/200/img_2d_3_4.png " ")
 
     All of the visualizations will now reflect the new color scheme, across all canvases!
 
@@ -297,11 +293,11 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
     Since **Projects** can have multiple **Canvases**, it usually makes sense to name them for the ease of reviewing down the line.
 
-    Select the **arrow icon** in the **canvas tab** on the bottom left of the screen.
+    Select the **arrow icon** in the **canvas tab** on the bottom left of the screen and click **Rename**.
 
     ![](images/200/img_2d_5_1.png " ")
 
-    Give the **Canvas** a meaningful name such as **Revenue Analysis** by clicking in the box and typing it in. Select **OK** to confirm your changes.
+    Give the **Canvas** a meaningful name such as **Revenue Analysis** by clicking in the box and typing it in. Select the checkmark to confirm your changes.
 
     ![](images/200/img_2d_5_2.png " ")
 
@@ -309,7 +305,7 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
 >As mentioned earlier, as the KoolKart CMO, you have now started to evaluate your revenue data. However, you want to make sure that it has some relation to the social media campaigns that you launched during November, January, February, and April. At first glance, it does look like revenues are increasing following those campaigns but you want to make sure things are also trending upwards, overall.
 
-Luckily, DV can help. So, let’s take a closer look at our numbers!
+Luckily, Oracle Analytics can help. So, let’s take a closer look at our numbers!
 
 1. Add a trend line to your Revenue by Date visualization.
 
@@ -367,27 +363,26 @@ Luckily, DV can help. So, let’s take a closer look at our numbers!
 
     ![](images/200/img_2f_2_2.png " ")
 
-    Let’s also give the **Insight** tab a meaningful name. Double-click the Title Box (currently labeled "Canvas 1") and type **Clothing & Electronics**.
+    Let’s also give the **Canvas** tab a meaningful name. Double-click the Title Box (currently labeled "Revenue Analysis") and type **Clothing & Electronics**.
 
     ![](images/200/img_2f_2_3.png " ")
 
-    The **Insight** is now ready to be shared, which we will cover later on. Let’s make sure to save our work at this point.
+    The **Canvas** is now ready to be shared, which we will cover later on. Let’s make sure to save our work at this point.
 
 3. Save your project.
 
-    Select the **Save** button from the **Project Menu** in the top right of the screen. Select **Save As** in the pop-up menu.
+    Select the **Save** disk from the **Project Menu** in the top right of the screen. Select **Save As** in the pop-up menu.
 
     ![](images/200/img_2f_3_1.png " ")
 
-    Type in KoolKart Sales as the Name and click **Save**.
+    Type in "KoolKart Sales - " followed by your initials as the Name and click **Save**.
 
     ![](images/200/img_2f_3_2.png " ")
 
-Congratulations! You have now successfully created compelling visualizations with DV. Proceed onto the next labs to learn about and try out even more robust features!
-
+Congratulations! You have now successfully created compelling visualizations with Oracle Analytics.
 ## Modifying Properties in the Data Panel
 
-Now, let's go over the data panel in the bottom left of the UI for accessing properties. You will find yourself using them in the upcoming labs, so now is a good time to visit them.
+Now, let's go over the data panel in the bottom left of the UI for accessing properties. You will find yourself using them in the upcoming labs, so now is a good time to visit them. Click on the **Visualiza** tab and click inside the **Revenue by Date** line charts.
 
 ![](images/200/img_2g_1.png " ")
 
