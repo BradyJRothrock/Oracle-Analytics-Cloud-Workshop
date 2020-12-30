@@ -21,7 +21,9 @@ After reaching out to the sales team, you have been provided with a spreadsheet 
 
 1. Review the spreadsheet containing the sales figures used in this lab.
 
-     Download and open the <a href="https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5/Exercise%20Files/KoolKart%20Sales%20Data.xlsx">**KoolKart Sales Data.xlsx**</a> file.
+     Download and open the <a href="/Exercise%20Files/KoolKart%20Sales%20Data.xlsx">**KoolKart Sales Data.xlsx**</a> file.
+
+     <!-- https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5 -->
 
     ![](images/200/img_2a_1_1.png " ")
 
