@@ -33,12 +33,20 @@
 			"filename": "LabGuide400.md"
 		},
 		{
-			"title": "Part 5: Machine Learning",
-			"description": "Learning how to create data flows and use the Machine Learning abilities of OAC",
+			"title": "Part 5: Data Flows",
+			"description": "Learning how to create data flows",
 			"partnumber": "Ennnnn_01",
 			"publisheddate": "02/18/2020",
 			"contentid": "12nnnn",
 			"filename": "LabGuide500.md"
+		},
+		{
+			"title": "Part 6: Machine Learning",
+			"description": "Learning how to use the Machine Learning abilities of OAC",
+			"partnumber": "Ennnnn_01",
+			"publisheddate": "02/18/2020",
+			"contentid": "12nnnn",
+			"filename": "LabGuide600.md"
 		}
 	]
 }
