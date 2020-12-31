@@ -7,9 +7,9 @@ Key takeaways from this lab:
 
 1. Create a **Data Flow** and add a **Data Set**.
 
-    Download the <a href="https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5/Exercise%20Files/KoolKart%20Orders.xlsx">**KoolKart Orders.xlsx**</a> file.
+    Download the <a href="/Oracle-Analytics-Cloud-Workshop/Exercise%20Files/KoolKart%20Orders.xlsx">**KoolKart Orders.xlsx**</a> file.
 
-    Now, select the hamburger menu button and click on the Home button.
+    Now, click on the Home button.
 
     ![](images/500/img_5a_1_1v2.png " ")
 
@@ -33,7 +33,7 @@ Key takeaways from this lab:
 
     ![](images/500/img_5a_2_1.png " ")
 
-    Download the <a href="https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5/Exercise%20Files/KoolKart%20Customers.xlsx">**KoolKart Customers.xlsx**</a> file.
+    Download the <a href="/Oracle-Analytics-Cloud-Workshop/Exercise%20Files/KoolKart%20Customers.xlsx">**KoolKart Customers.xlsx**</a> file.
 
     Click the **Add Data** icon and drag it to the editor.
 
@@ -105,43 +105,47 @@ Key takeaways from this lab:
 
     ![](images/500/img_5a_5_3_3v2.png " ")
 
-    Save the **Data Flow** by clicking the Save button in the top corner.
-
-    ![](images/500/img_5a_5_4.png " ")
+    Save the **Data Flow** by clicking the Save disk in the top corner.
 
     Name the data flow **KoolKart Dataflow**.
 
     ![](images/500/img_5a_5_5.png " ")
 
-    Click **Run Data Flow** to execute the data flow.
+    Click the **Run Data Flow** play button to execute the data flow.
 
     ![](images/500/img_5e_2_8.png " ")
 
-    ![](images/500/img_5a_5_7v2.png " ")
-
 ## Using KoolKart Dataflow for Sales Analysis
 
-1. Click on the hamburger button on the top left corner and select **Home**.
+1. Now, click on the Home button.
 
-    ![](images/500/img_5e_1_1.png " ")
+    ![](images/500/img_5a_1_1v2.png " ")
 
-    Create a new project by double clicking on the the **KoolKart Orders & Customers** data set on the home page or clicking on the ellipses menu and selecting **Create Project**.
+    Select **Create** and then **Project**.
 
-     ![](images/500/img_8a_2_1v2.png " ")
+    ![](images/500/img_5a_1_2v2.png " ")
 
-     ![](images/500/img_5a_6_1v2.png " ")
+    Select the **KoolKart Orders & Customers** data set and **Add to Project**.
 
-2. Go to the **Prepare** tab and select the **Customer Country** column.  
+    ![](images/500/img_5a_1_2v3.png " ")
+
+2. Go to the **Prepare** tab.  
 
     ![](images/300/img_3d_1_1.png " ")
 
+     Select the **Customer Country** column and select the recommendation **Enrich Customer Country with continent**.
+
     ![](images/500/img_5b_2_2v2.png " ")
 
-    Select the recommendation **Enrich Customer Country with continent**.
+    A box will appear with a **Warning**. It says that if we rerun the **Data Flow** we created previously this new column will be removed. Click **OK** to proceed.
+
+    ![](images/500/img_5b_2_2v3.png " ")
+
+    Notice, how the recommendation allows us to group the countries into sales regions, like our **Data Flow** but with just 1 click and do so much more. 
 
     ![](images/500/img_5b_2_3v2.png " ")
 
-    >Notice, how the recommendation allows us to group the countries into sales regions with just 1 click and do so much more. Since, we have already grouped our data, let's return to visualizing.
+    Since, we have already grouped our data in the **Data Flow**, let's return to visualizing.
 
     Click on **Visualize**.
 
@@ -149,7 +153,7 @@ Key takeaways from this lab:
 
 3. Create Visualizations **Order Amount** by **Date** and **Category**.
 
-    Select **Order Amount** and **Order Date** and select **Pick Visualization**.
+    Select **Order Amount**. Press and hold the **Control(Windows)** or **Command(Mac)** key and click on **Order Date**. Then, right click and select **Pick Visualization**.
 
     ![](images/500/img_5a_6_2v2.png " ")
 
@@ -169,15 +173,19 @@ Key takeaways from this lab:
 
 4. Create Visualization for **Order Amount** by **Category** and **Sub Category**.
 
-    Select **Category**, **Sub Category**, and **Order Amount**. Right click and select **Pick Visualization**. Select **Tree Map**.
+    Select **Category**, **Sub Category**, and **Order Amount**. Right click and select **Pick Visualization**. 
 
     ![](images/500/img_8b_2_2.png " ")
+
+    Select **Tree Map**.
+
+    ![](images/500/img_8b_2_2v2.png " ")
 
     ![](images/500/img_8b_2_3.png " ")
 
 5. Create Visualization for **Order Amount** by **Order Date**.
 
-    Select **Order Amount** and **Order Date**. Right click attributes while selected then select **Create Best Visualization**.
+    Select **Order Amount**. Press and hold the **Control(Windows)** or **Command(Mac)** key and click on **Order Date**. Then, right click and select **Create Best Visualization**.
 
     ![](images/500/img_5b_3_1.png " ")
 
@@ -211,9 +219,7 @@ Key takeaways from this lab:
 
     ![](images/500/img_5b_3_8.png " ")
 
-    Save the project and name it "Machine Learning".
-
-    ![](images/500/img_5b_3_9.png " ")
+    Save the project and name it "Sales & Forecast".
 
     ![](images/500/img_5b_3_10.png " ")
 
@@ -225,7 +231,7 @@ Key takeaways from this lab:
 
     ![](images/500/img_5c_2_1.png " ")
 
-    Select **Order Amount** and **Customer Age Group**. While the attributes are selected, right click and select **Create Best Visualization**.
+    Select **Order Amount**. Press and hold the **Control(Windows)** or **Command(Mac)** key and click on **Customer Age Group**. Then, right click and select **Create Best Visualization**.
 
     ![](images/500/img_5c_2_2.png " ")
 
@@ -237,8 +243,7 @@ Key takeaways from this lab:
 
     ![](images/500/img_5c_2_4.png " ")
 
-    Select **Order Amount** and **Customer Country**. While the attributes are selected, right click and select **Pick Visualization**.
-
+    Select **Order Amount**. Press and hold the **Control(Windows)** or **Command(Mac)** key and click on **Customer Country**. Then, right click and select **Pick Visualization**
     ![](images/500/img_5c_2_5.png " ")
 
     Choose the **Map Chart**.
@@ -254,7 +259,9 @@ Key takeaways from this lab:
     >No changes need to be made to the data layers section.
 
     ![](images/500/img_5c_2_6.1.png " ")
-    Select **Order Amount** and **Customer Gender**. While the attributes are selected, right click and select **Pick Visualization**.
+
+
+    Select **Order Amount**. Press and hold the **Control(Windows)** or **Command(Mac)** key and click on **Customer Gender**. Then, right click and select **Pick Visualization**
 
    ![](images/500/img_5c_2_8.png " ")
 
@@ -262,15 +269,23 @@ Key takeaways from this lab:
 
    ![](images/500/img_5c_2_9v2.png " ")
 
-    Right-click the **Pie Chart** and select **Color** then **Manage Assignments**.
+    Right-click in the **Pie Chart** white space and select **Color** then **Manage Assignments**.
 
    ![](images/500/img_5c_2_10v2.png " ")
 
-    Choose the color pink for F and the color royal blue for M.
+    Click the blue square next to **F**. Then set the color to *1e8f89* and click **OK**.
 
    ![](images/500/img_5c_2_11.png " ")
 
-   ![](images/500/img_5c_2_12.png " ")
+    Repeat for **M** and set the color to *ee6a45* and click **OK**.
+
+    ![](images/500/img_5c_2_11.2.png " ")
+
+    Now click **Done**.
+
+    ![](images/500/img_5c_2_11.3.png " ")
+
+    >Notice how we chose to pick distincitly different colors but avoided the sterotypical pink and blue. 
 
     Move pie chart under the donut chart.
 
