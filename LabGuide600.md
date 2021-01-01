@@ -22,17 +22,17 @@ Isla knows that she needs to use KoolKart Orders and KoolKart Customers data set
 
 1. Use **Data Flow Editor** to create model.
 
-    Click the hamburger button and select **Home**.
+    Now, click on the Home button.
 
-    ![](images/500/img_5e_1_1v2.png " ")
+    ![](images/500/img_5a_1_1v2.png " ")
 
-    Open the **Data Flow Editor** by clicking on **Create** and then **Data Flow**.  
+    Select **Create** and then **Data Flow**.
 
-    ![](images/500/img_5e_1_2.png " ")
+    ![](images/500/img_5a_1_2.png " ")
 
-    Select **Create Data Set**.
+    Select **Create Data Set** to load in the Excel file.
 
-    ![](images/500/img_5e_1_3.png " ")
+    ![](images/200/img_2a_2_2.png " ")
 
     Download the <a href="https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5/Exercise%20Files/KoolKart%20Subscriptions.xlsx">**KoolKart Subscription.xlsx**</a> file.
 
@@ -80,27 +80,29 @@ Isla knows that she needs to use KoolKart Orders and KoolKart Customers data set
 
 3. Create a Scenario that will predict subscription confidence.
 
-    Click the hamburger menu at the top left corner and click **Catalog**.
+    Return to the home page.
+
+    ![](images/500/img_5a_1_1v2.png " ")
+
+    Open the **Sales & Forecast Project**.
 
     ![](images/500/img_5e_3_1av2.png " ")
 
-    Open the Machine Learning project and create a new canvas.
+    Create a new canvas and rename it to **Subscription Prediction**.
 
     ![](images/500/img_5e_3_1.png " ")
-
-     Rename the canvas you created to **Subscription Prediction**.
 
     ![](images/500/img_5e_3_2.png " ")
 
     Download the <a href="https://github.com/oracle/learning-library/raw/master/workshops/dvcs-5/Exercise%20Files/KoolKart%20Partner%20Sales%20.xlsx">**KoolKart Partner Sales.xlsx**</a> file.
 
-    Click the **+** next to the **Data Elements**, select the **Add Data Set** option.
+    Click the **+** next to the **Data**, select the **Add Data Set** option.
 
     ![](images/500/img_5e_3_3.png " ")
 
-    Select the **Create Data Set** option.
+    Select **Create Data Set** to load in the Excel file.
 
-    ![](images/500/img_5e_3_4.png " ")
+    ![](images/200/img_2a_2_2.png " ")  
 
     Select the **Drop data here or click to browse** and navigate to the **KoolKart Partner Sales** file or drag and drop the file onto the file icon.
 
@@ -110,7 +112,7 @@ Isla knows that she needs to use KoolKart Orders and KoolKart Customers data set
 
     ![](images/500/img_5e_3_6.png " ")
 
-    Return to the **Visualize** tab and click the **+** next to the **Data Elements**.
+    Return to the **Visualize** tab and click the **+** next to the **Data**.
 
     Select the **Create Scenario** option.
 
@@ -124,7 +126,7 @@ Isla knows that she needs to use KoolKart Orders and KoolKart Customers data set
 
     ![](images/500/img_5e_3_9.png " ")
 
-    Select **Customer Name** and **PredictionConfidence**. With the attributes selected, right click, and select **Pick Visualization**.
+    Select **Customer Name**. Press and hold the **Control(Windows)** or **Command(Mac)** key and click on **PredictionConfidence**. Then, right click and select **Pick Visualization**.
 
     ![](images/500/img_5e_3_10.png " ")
 
@@ -144,4 +146,4 @@ Congratulations! You have completed the workshop.
 
 In this workshop, we were able to quickly assess the effectiveness of your social media campaigns on sales and how sales trends correspond to social media tone/sentiment. We also used OAC's machine learning abilities to predict the likelihood of customer's subscribing to KoolKart's mailing list.
 
-This concludes our Oracle Analytics Cloud Data Visualization workshop.
+This concludes our Oracle Analytics workshop.
